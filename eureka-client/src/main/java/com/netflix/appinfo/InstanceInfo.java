@@ -314,6 +314,9 @@ public class InstanceInfo {
     }
 
 
+    /**
+     * 实例状态
+     */
     public enum InstanceStatus {
         UP, // Ready to receive traffic
         DOWN, // Do not send traffic- healthcheck callback failed

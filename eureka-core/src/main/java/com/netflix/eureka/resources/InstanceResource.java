@@ -89,7 +89,7 @@ public class InstanceResource {
 
     /**
      * A put request for renewing lease from a client instance.
-     *
+     * 来自客户端实例的续订租约的放置请求
      * @param isReplication
      *            a header parameter containing information whether this is
      *            replicated from other nodes.
